@@ -1,0 +1,61 @@
+*{margin: 0;padding: 0;}
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&family=Lora:wght@400;500&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+header{width: 100%;position: absolute;z-index: 5;}
+.container{width: 1140px;margin: 0px auto;}
+.nav{width: 100%;display: flex;margin-top: 13px;}
+.logo{flex-basis: 15%;}
+.logo h1{text-transform: uppercase;color: white;font-size: 30px;}
+.logo span{display: inline-block;text-transform: uppercase;font-family: 'Open Sans', sans-serif;color: white;font-size: 16px;letter-spacing: 7px;}
+.menu{flex-basis: 65%;margin-top: 25px;}
+.menu ul{text-align: end;}
+.menu ul li{list-style: none;display: inline-block;font-family: 'Poppins', sans-serif;}
+.menu ul li a{text-decoration: none;color: white;margin-right: 20px;font-size: 18px;letter-spacing: 1px;font-weight: bolder;}
+.button{flex-basis: 20%;}
+.button button{height: 39px;font-size: 15px;width: 122px;color: white;background-color: none;background-color: transparent;border: 2px solid white;border-radius: 25px;margin-top: 16px;margin-left: 10px;font-family: 'Open Sans', sans-serif;}
+.overlay{background: rgba(0, 0, 0, 0.4);position: absolute;top: 0;bottom: 0;left: 0;right: 0;z-index: -1;}
+.banner{width: 100%;height:100vh;background-image: url(../img/banner.png);background-position: center;background-repeat: no-repeat;background-size: cover;position: relative;z-index: 1;}
+.banner-content{text-align: center;padding-top: 20%;}
+.banner-content h1{font-family: 'Lora', serif;font-weight: 500;font-size: 32px;color: white;letter-spacing: 1px;}
+.banner-content h2{font-family: 'Open Sans', sans-serif;font-size: 65px;text-transform: uppercase;letter-spacing: 2px;color: white;margin-top: 35px;}
+.banner-content button{font-family: 'Open Sans', sans-serif;height: 48px;width: 190px;font-size: 14px;text-transform: uppercase;font-weight: 700;letter-spacing: 2px;background-color: #FA2155;color: white;border: none;border-radius: 45px;margin-top: 32px;}
+.row{width: 65px;height: 2px;border-radius: 16px;position: absolute;z-index: 66;background-color: #FA2155;bottom: 60%;left: 46%; }
+.quite{width: 100%;background-color: #F4F5F8;height: 25vh;}
+.grey{display: flex;}
+.grey-1{flex-basis: 20%;}
+.grey-1 h1{display: inline-block;transform: rotate(180deg);text-align: center;font-size: 310px;margin-top: 12px;color: white;margin-left: 30px;}
+.grey-2{flex-basis: 80%;}
+.grey-2 h2{font-size: 19px;color: grey;margin-top: 60px;margin-left: 30px;}
+.grey-2 p{text-transform: uppercase;font-weight: bold;font-family: 'Poppins', sans-serif;letter-spacing: 1px;font-size: 14px;margin-left: 250px;color: #848E96;margin-top: 5px;font-family: 'Poppins', sans-serif;}
+.events{width: 100%;}
+.upcoming-events{margin-bottom: 85px;}
+.upcoming-events h1{text-align: center;text-transform: uppercase;font-size: 28px;letter-spacing: 1px;font-weight: 700;font-family: 'Poppins', sans-serif;position: relative;margin-bottom: 15px;}
+.dot{width: 61px;height: 3px;border-radius: 16px;position: absolute;background-color: #FA2155;left: 47%;}
+.photos{display: flex;margin-top: 80px;}
+.hello{flex-basis: 50%;}
+.hello img{margin-left: 50px;}
+.hello h1{margin-top: 25px;font-size: 17px;font-weight: bold;font-family: 'Poppins', sans-serif;}
+.hello p{font-family: 'Open Sans', sans-serif;text-align: center;font-size: 15px;line-height: 20px;color: #919191;}
+.hello h3{text-align: center;margin: 15px 0px;}
+.hello h3 a{text-decoration: none;text-transform: uppercase;font-size: 12px;letter-spacing: 4px;color: #FB3840;font-weight: bold;font-family: 'Open Sans', sans-serif;}
+.footer{width: 100%;height: 90vh;background-image: url(../img/footer.png);background-position: center;background-repeat: no-repeat;background-size: cover;position: relative;z-index: 1;}
+.hi{display: flex;}
+.width{flex-basis: 50%;}
+.footer-part{flex-basis: 50%;}
+.footer-part h1{font-family: 'Open Sans', sans-serif;font-size: 50px;text-transform: uppercase;letter-spacing: 2px;color: white;margin-top: 20vh;}
+.pro{width: 60px;height: 3px;border-radius: 16px;position: absolute;z-index: 66;background-color: #FA2155;bottom: 57%;left: 50%; }
+.footer-part p{display: inline-block;color: white;margin-top: 32px;line-height: 24px;font-family: 'Open Sans', sans-serif;}
+.footer-part h3{margin-top: 25px;}
+.footer-part h3 a{text-decoration: none;text-transform: uppercase;font-size: 11px;color: white;letter-spacing: 4px;font-weight: bold;font-family: 'Open Sans', sans-serif;}
+.finally{width: 100%;height: 100vh;margin-top: 120px;}
+.final{width: 100%;display: flex;}
+.final-1{position: relative;flex-basis: 33%;}
+.final-1 h1{text-transform: uppercase;font-size: 27px;letter-spacing: 1px;font-weight: 700;font-family: 'Poppins', sans-serif;position: relative;margin-bottom: 15px;}
+.bye{width: 53px;height: 3px;border-radius: 16px;position: absolute;z-index: 66;background-color: #FA2155;bottom: 86%; }
+.final-1 p{margin-top: 57px;font-family: 'Open Sans', sans-serif;font-size: 17px;line-height: 22px;color: #919191;}
+.final-1 button{font-family: 'Open Sans', sans-serif;height: 48px;width: 190px;font-size: 14px;text-transform: uppercase;font-weight: 700;letter-spacing: 2px;background-color: #FA2155;color: white;border: none;border-radius: 45px;margin-top: 32px;}
+.final-2{flex-basis: 33%;}
+.A{margin-bottom: 15px;}
+.B{margin-bottom: 20px;}
+.final-3{ flex-basis: 33%;}
+.mad{background-color: #181818;padding: 20px 0px;}
+.mad h1{font-family: 'Open Sans', sans-serif;color: white;font-size: 20px;font-weight: 100;text-align: center;line-height: 30px;}
